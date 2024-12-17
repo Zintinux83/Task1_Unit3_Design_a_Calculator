@@ -21,13 +21,14 @@
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="100dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:hint="0"
+
         android:inputType="number"
 
         android:textStyle="bold"
-
         app:layout_constraintBottom_toTopOf="@+id/guideline1"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -103,11 +104,11 @@
         android:text="4"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
 
-        app:layout_constraintEnd_toStartOf="@id/btn2"
+        app:layout_constraintEnd_toStartOf="@id/btn5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"/>
 
     <Button
         android:id="@+id/btn5"
@@ -118,8 +119,8 @@
         android:text="5"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
 
-        app:layout_constraintEnd_toStartOf="@id/btn3"
-        app:layout_constraintStart_toEndOf="@id/btn1"
+        app:layout_constraintEnd_toStartOf="@id/btn6"
+        app:layout_constraintStart_toEndOf="@id/btn4"
 
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
